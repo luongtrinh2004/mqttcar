@@ -1,0 +1,21 @@
+{
+  "name": "devices-simulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simulator.js",
+  "scripts": {
+    "start": "node simulator.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/polyline": "^1.2.1",
+    "axios": "^1.10.0",
+    "dotenv": "^17.0.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.1",
+    "mqtt": "^5.13.1"
+  }
+}
